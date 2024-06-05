@@ -7,6 +7,5 @@ module de.fallmerayer.slfserver {
 
     opens de.fallmerayer.slfserver to javafx.fxml;
     exports de.fallmerayer.slfserver;
-    exports de.fallmerayer.slfserver.controller;
     opens de.fallmerayer.slfserver.controller to javafx.fxml;
 }
